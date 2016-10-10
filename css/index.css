@@ -1,0 +1,124 @@
+
+/*大图搜索区*/
+#hidden{
+	height:70px;
+}
+.search{
+	width:100%;
+	min-width:1263px;
+	height:600px;
+	background:url(../imgs/search.jpg) no-repeat center;
+	position:relative;
+}
+#middil{
+	width:600px;
+	height:60px;
+	background:black;
+	opacity:.4;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-300px;
+	margin-top:-30px;
+	border-radius:10px;
+}
+#search{
+	width:450px;
+	height:52px;
+	padding: 0 10px;
+	border:1px solid #666;
+	border-radius:10px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-295px;
+	margin-top:-28px;
+	background:#eee;
+	font-size:24px;
+	font-weight:bolder;
+}
+#btn{
+	width:115px;
+	height:54px;
+	padding: 0 10px;
+	border:1px solid #666;
+	border-radius:10px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:180px;
+	margin-top:-28px;
+	font-size:24px;
+	font-weight:bolder;
+	cursor:pointer;
+}
+/*主体内容*/
+.main{
+	width:1263px;
+	text-align:center;
+	margin:30px auto;
+}
+.topic {
+    margin:10px 0;
+    letter-spacing:2px;
+}
+.hot{
+	font-size:45px;
+}
+.show{
+	display:inline-block;
+	width:380px;
+	padding:4px;
+	border:1px solid #ddd;
+	border-radius:5px;
+	font-size:14px;
+	text-align:left;
+	margin:15px 10px;
+	position:relative;
+}
+.show img{
+	vertical-align: middle;
+}
+ .show figcaption{
+	color: #777;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+figcaption .inb{
+	height:42px;
+	padding:8px 0;
+}
+figcaption .strong{
+	color:#333;
+	font-weight:normal;
+}
+.info{
+	padding:6px 0  8px 0;
+}
+.price, strong{
+	color: #f60;
+	font-size: 14px;
+}
+.price strong {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.sat{
+	float:right;
+	font-style:normal;
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+.tubiao{
+	width:90px;
+	height:25px;
+	text-align: center;
+	line-height: 25px;
+	background:#59B200;
+	color:white;
+	position:absolute;
+	left:4px;
+	top:4px;
+}
